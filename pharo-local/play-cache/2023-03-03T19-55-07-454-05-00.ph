@@ -1,0 +1,1 @@
+| deck |deck := (1 to: 13) asArray.deck := deck, deck, deck, deck.deck := deck shuffle.Transcript show: deck asArray; cr.

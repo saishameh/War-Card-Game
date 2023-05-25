@@ -1,0 +1,1459 @@
+[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mCollectionIsEmpty: an OrderedCollection() is empty
+[0mOrderedCollection(Collection)>>errorEmptyCollection
+OrderedCollection(Collection)>>emptyCheck
+OrderedCollection>>removeFirst
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+[0m[31mInstance of GPoint did not understand #,
+[0mGPoint(Object)>>doesNotUnderstand: #,
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+FullBlockClosure(BlockClosure)>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+[ :l | l completeMatch: self buffer: aBuffer ] in KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+[0m[31mInstance of GPoint did not understand #,
+[0mGPoint(Object)>>doesNotUnderstand: #,
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+FullBlockClosure(BlockClosure)>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+[ :l | l completeMatch: self buffer: aBuffer ] in KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+[0m[31mSubscriptOutOfBounds: 6
+[0mArray(Object)>>errorSubscriptBounds:
+Array(Object)>>at:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+[0m[31mSubscriptOutOfBounds: 6
+[0mArray(Object)>>errorSubscriptBounds:
+Array(Object)>>at:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+[0m[31m#withIndexDo: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #withIndexDo:
+UndefinedObject>>doesNotUnderstand: #withIndexDo:
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+[0m[31m#withIndexDo: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #withIndexDo:
+UndefinedObject>>doesNotUnderstand: #withIndexDo:
+War class>>deal:
+UndefinedObject>>DoIt
+[ receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: self compileDoit] in OpalCompiler>>evaluate in Block: [ receiver withArgs: (context ifNil: [ #() ] ifNot...etc...
+FullBlockClosure(BlockClosure)>>on:do:
+OpalCompiler>>evaluate
+[
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString readStream;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ ^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+			aButtonClass new
+				label: specCommand name;
+				help: specCommand description;
+				in: [ :button | 
+					specCommand hasIcon
+						ifTrue: [ button icon: specCommand icon ] ];
+				action: [ specCommand execute ];
+				yourself ] in SpCommand>>configureAsButtonOfClass: in Block: [ specCommand execute ]
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp: in Block: [:m |...
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+[0m[31mFullBlockClosure(BlockClosure)>>on:do:
+[0mFullBlockClosure(BlockClosure)>>on:do:
+RBScanner>>scanNumber
+RBScanner>>scanToken
+RBScanner>>next
+RBParser>>scannerNext
+RBParser>>step
+RBParser>>parseNumberLiteral
+RBParser>>parsePrimitiveLiteral
+RBParser>>parseLiteralArrayObject
+RBParser>>parseLiteralArray
+RBParser>>parsePrimitiveObject
+RBParser>>parseUnaryMessage
+RBParser>>parseBinaryMessage
+RBParser>>parseKeywordMessageWith:
+RBParser>>parseKeywordMessage
+RBParser>>parseCascadeMessage
+RBParser>>parseAssignment
+RBParser>>parseStatementInto:periodList:withAcceptedStatementClosers:
+RBParser>>parseStatementList:into:untilAnyCloserOf:
+RBParser>>parseStatements:into:untilAnyCloserOf:
+RBParser>>parseStatements:
+RBParser>>parseExpression
+RBParser class>>parseExpression:onError:
+RBParser class>>parseFaultyExpression:
+[ 
+		RBParser parseFaultyExpression: self textArea string] in [node := RBParser parseMethod: self textArea string onError: [ 
+		RBParser parseFaultyExpression: self textArea string]
+	] in RubSmalltalkEditor>>bestNodeInTextArea in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+FullBlockClosure(BlockClosure)>>cull:cull:cull:
+RBParser>>parserError:
+RBParser>>parseStatementInto:periodList:withAcceptedStatementClosers:
+[0m
